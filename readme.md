@@ -10,3 +10,8 @@ Estamos agregando nuestro primer archivo
 
 La home page esta en home.html
 
+## About
+
+La pagina de acerca de
+
+
