@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            .wrapper{display:block; position:relative; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
+            .row{color:#474747; background-color:#F4F4F4;}
+            .container{padding:80px 0;}
+            .clear, .clear::after, .group, .group::after{clear:both;}
+
+            .first{margin-left:0;}
+            .one_third {display:inline-block; float:left; margin:0 0 0 20px; list-style:none;width:300px;}
+
+            #about-me{display:block; width:100%; line-height:1.6em;}
+            #about-me #about-intro{margin-bottom:0;}
+            #about-me #about-intro .panorama{margin-bottom:20px;}
+            #about-me #about-intro .panorama .imgholder{width:100%; height: auto;}
+            #about-me #about-intro blockquote{position:relative; margin:0; padding:0;}
+            #about-me #about-intro blockquote p{margin:0; padding:0 0 0 30px; font-size:16px; font-style:italic; line-height:1.6em;}
+            #about-me #about-intro blockquote p span{ top:0; left:0; font-size:30px; line-height:.8em;}
+
+            #about-me #skillset{margin-bottom:0;}
+            #about-me #skillset li{margin-top:8px;}
+
+            #about-me #team{margin-bottom:0;}
+            #about-me #team ul{margin:0; padding:0; list-style:none;}
+            #about-me #team ul li{display:inline-block; float:left; width:140px; margin:30px 0 0 20px; padding:0; text-align:center;}
+
+            #about-me #team ul li figure .imgholder{padding:4px; border:1px solid #CCCCCC;width:120%; height: auto;}
+            #about-me #team ul li figcaption p{margin:5px 0 0 0; padding:0;}
+            #about-me #team ul li figure figcaption .team_title{margin:0; font-size:11px; line-height:normal;}
+            
+            h2{font-family:Georgia, "Times New Roman", Times, serif; margin:0 0 20px 0; font-size:1.4rem; line-height:normal; font-weight:normal; text-transform:capitalize;}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper row">
+            <div id="container" class="clear">
+                <div id="about-me" class="clear">
+                    <section id="about-intro" class="one_third first">
+                        <h2> En el camino de los datos </h2>
+                        <div class="panorama"><img class="imgholder" src="https://i.imgur.com/4e705Q4.png" alt=""></div>
+                        <blockquote>
+                          <p><span>&ldquo;</span> Numbers have an important story to tell. 
+                            They rely on you to give them a voice. <span>&rdquo;</span></p>
+                        </blockquote>
+                    </section>
+                    <section id="skillset" class="one_third">
+                        <h2>Math & Statistics</h2>
+                        <p>Actualmente cursando el segundo año de la Maestría en Estadística Aplicada 
+                            dictada en la Fac. de Economía y Administración de la UNCo.</p>
+                        <p>Comenzando a integrar conocimientos que vienen de mi formación en Ciencias de la
+                            Computación relacionados a Inteligencia Artificial y Datos con los nuevos que 
+                            se incorporan con la Maestría como Métodos Estadísticos y Modelos Multivariados. 
+                        </p>
+                        <h2>Programming & Database</h2>
+                        <ul>
+                          <li>Ciencias de la Computación</li>
+                          <li>Lenguajes de scripting (Python)</li>
+                          <li>Paquetes Estadísticos (R)</li>
+                          <li>Bases de datos Relacionales</li>
+                          <li>Iniciando en Bases NoSQL y Distribuidas (MongoDB, Hadoop, Spark)</li>
+                        </ul>
+                    </section>
+                    <section id="team" class="one_third">
+                        <h2>Datos Personales</h2>
+                        <ul class="clear">
+                            <li>
+                                <figure><img class="imgholder" src="http://informium.com.ar/images/me.jpg" alt="">
+                                    <figcaption>
+                                        <p class="team_name">Gabriel Raby</p>
+                                        <p class="team_title">Data Science Padawan</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
