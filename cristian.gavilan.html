@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cristian Gavilan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row mt-4 mb-4">
+            <div class="col">
+                <div class="jumbotron mt-4 mb-4 text-center">
+                    <img src="https://git-scm.com/images/logo@2x.png">
+                    <h1 class="display-4">Práctica:</h1>
+                    <h6>by: Cristian Gavilan</h6>
+                </div>
+                <hr>
+                <p class="lead text-justify">Git es el sistema de control de versiones distribuido de fuente abierta que facilita las actividades de GitHub en su computadora portátil o de escritorio. Esta hoja de referencia rápida resume las instrucciones de las líneas de comando
+                    de Git más comúnmente usadas.</p>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-4">
+            <div class="col text-justify">
+                <h3>Instalar Git</h3>
+                GitHub le ofrece a los clientes de computadoras de escritorio que incluye una interfaz gráfica de usuario para las acciones de repositorio más comunes y una edición de línea de comando de actualización automática de Git para escenarios avanzados. Hay
+                distribuciones de Git para sistemas Linux y POSIX en el sitio web oficial Git SCM.
+            </div>
+
+        </div>
+
+        <div class="row>
+            <div class=" col ">
+
+                <div class="card-columns ">
+
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Enlaces</h5>
+                            <p class="card-text ">
+                                <a href="https://windows.github.com ">GitHub para Windows</a>
+                                <br>
+                                <a href="https://windows.github.com ">GitHub para Mac</a>
+                                <br>
+                                <a href="http://git-scm.com ">Git para toda plataforma</a>
+                                <br>
+                                <a href="https://github.github.com/training-kit/downloads/es_ES/github-git-cheat-sheet.pdf ">Data Sheet (PDF)</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Configurar herramientas</h5>
+                            <p class="card-text ">
+                                <p>Configura la información del usuario para todos los respositorios locales</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git config --global user.name "[name] "</code></p>
+                                <p>Establece el nombre que estará asociado a tus commits</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git config --global user.email "[email address] "</code></p>
+                                <p>Establece el e-mail que estará asociado a sus commits</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Crear repositorios</h5>
+                            <p class="card-text ">
+                                <p>Inicializa un nuevo repositorio u obtiene uno de una URL existente</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git init [project-name]</code></p>
+                                <p>Crea un nuevo repositorio local con el nombre especificado</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git clone [url]</code></p>
+                                <p>Descarga un proyecto y toda su historial de versiones</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Sincronizar cambios</h5>
+                            <p class="card-text ">
+                                <p>Registrar un marcador para un repositorio e intercambiar historial de versiones</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git fetch [bookmark]</code></p>
+                                <p>Descarga todo el historial del marcador del repositorio</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git merge [bookmark]/[branch]</code></p>
+                                <p>Combina la rama del marcador con la rama local actual</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git push [alias] [branch]</code></p>
+                                <p>Sube todos los commits de la rama local a GitHub</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git pull</code></p>
+                                <p>Descarga el historial del marcador e incorpora cambios</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Efectuar cambios</h5>
+                            <p class="card-text ">
+                                <p>Revisa cambios y crea un commit</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git status</code></p>
+                                <p>Enumera todos los archivos nuevos o modificados de los cuales se van a guardar cambios</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git diff</code></p>
+                                <p>Muestra las diferencias entre archivos que no se han enviado aún al área de espera</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git add [file]</code></p>
+                                <p>Guarda el estado del archivo en preparación para realizar un commit</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git diff --staged</code></p>
+                                <p>Muestra las diferencias del archivo entre el área de espera y la última versión del archivo</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git reset [file]</code></p>
+                                <p>Mueve el archivo del área de espera, pero preserva su contenido</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git commit -m"[descriptive message] "</code></p>
+                                <p>Registra los cambios del archivo permanentemente en el historial de versiones</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Cambios grupales</h5>
+                            <p class="card-text ">
+                                <p>Nombra una serie de commits y combina esfuerzos ya completados</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git branch</code></p>
+                                <p>Enumera todas las ramas en el repositorio actual</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git branch [branch-name]</code></p>
+                                <p>Crea una nueva rama</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git checkout [branch-name]</code></p>
+                                <p>Cambia a la rama especificada y actualiza el directorio activo</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git merge [branch-name]</code></p>
+                                <p>Combina el historial de la rama especificada con la rama actual</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git branch -d [branch-name]</code></p>
+                                <p>Borra la rama especificada</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Refactorización de archivos</h5>
+                            <p class="card-text ">
+                                <p>Reubica y retira los archivos de los cuales se tiene una versión</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git rm [file]</code></p>
+                                <p>Borra el archivo del directorio activo y lo pone en el área de espera en un estado de eliminación</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git rm --cached [file]</code></p>
+                                <p>Retira el archivo del historial de control de versiones, pero preserva el archivo a nivel local</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git mv [file-original] [file-renamed]</code></p>
+                                <p>Cambia el nombre del archivo y lo prepara para ser guardado</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Suprimir el seguimiento de cambios</h5>
+                            <p class="card-text ">
+                                <p>Excluye los archivos temporales y las rutas</p>
+                                <div class="language-plaintext highlighter-rouge ">
+                                    <div class="highlight ">
+                                        <code>*.log <br>
+                                            build/<br>
+                                            temp-*</code>
+                                    </div>
+                                </div>
+                                <p>Un archivo de texto llamado <code class="language-plaintext highlighter-rouge ">.gitignore</code> suprime la creación accidental de versiones para archivos y rutas que concuerdan con los patrones especificados</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git ls-files --others --ignored --exclude-standard</code></p>
+                                <p>Enumera todos los archivos ignorados en este proyecto</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Guardar fragmentos</h5>
+                            <p class="card-text ">
+                                <p>Almacena y restaura cambios incompletos</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git stash</code></p>
+                                <p>Almacena temporalmente todos los archivos modificados de los cuales se tiene al menos una versión guardada</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git stash pop</code></p>
+                                <p>Restaura los archivos guardados más recientemente</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git stash list</code></p>
+                                <p>Enumera todos los grupos de cambios que estan guardados temporalmente</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git stash drop</code></p>
+                                <p>Elimina el grupo de cambios más reciente que se encuentra guardado temporalmente</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Repasar historial</h5>
+                            <p class="card-text ">
+                                <p>Navega e inspecciona la evolución de los archivos de proyecto</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git log</code></p>
+                                <p>Enumera el historial de versiones para la rama actual</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git log --follow [file]</code></p>
+                                <p>Enumera el historial de versiones para el archivo, incluidos los cambios de nombre</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git diff [first-branch]...[second-branch]</code></p>
+                                <p>Muestra las diferencias de contenido entre dos ramas</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git show [commit]</code></p>
+                                <p>Produce metadatos y cambios de contenido del commit especificado</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Rehacer commits</h5>
+                            <p class="card-text ">
+                                <p>Borra errores y elabora un historial de reemplazo</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git reset [commit]</code></p>
+                                <p>Deshace todos los commits después de <code class="language-plaintext highlighter-rouge ">[commit]</code>, preservando los cambios localmente</p>
+                                <p><code class="language-plaintext highlighter-rouge ">$ git reset --hard [commit]</code></p>
+                                <p>Desecha todo el historial y regresa al commit especificado</p>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-4 mt-4 ">
+            <div class="col text-center ">
+                <a href=" https://github.github.com/training-kit/downloads/es_ES/github-git-cheat-sheet/ ">
+                    <img src="https://elfreneticoinformatico.com/wp-content/uploads/2017/10/GitHubLogo-676x251.png " width="200px ">
+                </a>
+                <p class="text-muted ">Fecha: 22/05/2020</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
