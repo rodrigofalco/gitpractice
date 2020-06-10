@@ -20,3 +20,7 @@ La colaboración de Juan al proyecto se encuentra en juan.html
 ## Ailin page
 
 La colaboración de Ailin al proyecto se encuentra en ailin-linares.html
+
+## Flavia page
+
+La colaboración de Flavia al proyecto se encuentra en flavia.cofre.html
